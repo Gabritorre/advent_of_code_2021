@@ -7,3 +7,4 @@
 |Day 2 part 1	  |**C++**    |
 |Day 2 part 2	  |**C++**    |
 |Day 3 part 1     |**Java**   |
+|Day 3 part 2     |**Java**   |
