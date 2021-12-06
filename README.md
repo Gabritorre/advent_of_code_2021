@@ -9,3 +9,4 @@
 |Day 3 part 1     |**Java**                      |
 |Day 3 part 2     |**Java**                      |
 |Day 4 part 1     |**Python, (HTML), JavaScript**|
+|Day 4 part 2     |**Python, (HTML), JavaScript**|
