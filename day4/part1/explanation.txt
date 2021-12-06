@@ -1,0 +1,6 @@
+editInput.py modify my rowinput.txt in a html style
+editInput.py add to each line of the rawinput.txt a tag html to allow javascript to recognize matrix (<p>) and array of numbers <h1>.
+after that i add the other html tag manually.
+before moving on javascript i also remove the double spaces "  " (-> " ") and the initial spaces "<p> " (-> "<p>") usign find and replace
+the result is modinput.html
+now with javascript I can obtain matrix and array and make the script
