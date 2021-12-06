@@ -4,3 +4,5 @@ after that i add the other html tag manually.
 before moving on javascript i also remove the double spaces "  " (-> " ") and the initial spaces "<p> " (-> "<p>") usign find and replace
 the result is modinput.html
 now with javascript I can obtain matrix and array and make the script
+
+(all this mess is only because I wanted to do it in javascript with this method, I know there are so much easier ways to resolve it)
