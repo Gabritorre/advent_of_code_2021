@@ -11,3 +11,4 @@
 |Day 4 part 1     |**Python, (HTML), JavaScript**|
 |Day 4 part 2     |**Python, (HTML), JavaScript**|
 |Day 5 part 1     |**Python**                    |
+|Day 5 part 2     |**Python**                    |
