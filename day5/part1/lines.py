@@ -16,22 +16,21 @@ for line in input.readlines():
 
 # when the index is i we are referring to x, when the index is i+1 we are referring to y
 for i in range(0, len(arrxy1), 2):
-	if(arrxy1[i] == arrxy2[i] or arrxy1[i+1] == arrxy2[i+1]):
-		if(arrxy1[i] == arrxy2[i]):		#x1 = x2
-			if(arrxy1[i+1] < arrxy2[i+1]):	#y1 < y2
-				for j in range(arrxy1[i+1], arrxy2[i+1] + 1):	#fill from y1 to y2
-					matrix[arrxy1[i]][j] += 1
-			elif(arrxy1[i+1] > arrxy2[i+1]):	#y1 > y2
-				for j in range(arrxy2[i+1], arrxy1[i+1] + 1):	#fill from y2 to y1
-					matrix[arrxy1[i]][j] += 1
+	if(arrxy1[i] == arrxy2[i]):		#x1 = x2
+		if(arrxy1[i+1] < arrxy2[i+1]):	#y1 < y2
+			for j in range(arrxy1[i+1], arrxy2[i+1] + 1):	#fill from y1 to y2
+				matrix[arrxy1[i]][j] += 1
+		elif(arrxy1[i+1] > arrxy2[i+1]):	#y1 > y2
+			for j in range(arrxy2[i+1], arrxy1[i+1] + 1):	#fill from y2 to y1
+				matrix[arrxy1[i]][j] += 1
 
-		elif(arrxy1[i+1] == arrxy2[i+1]):	#y1 = y2
-			if(arrxy1[i] < arrxy2[i]):	#x1 < x2
-				for j in range(arrxy1[i], arrxy2[i] + 1):	#fill from x1 to x2
-					matrix[j][arrxy1[i+1]] += 1
-			elif(arrxy1[i] > arrxy2[i]):	#x1 > x2
-				for j in range(arrxy2[i], arrxy1[i] + 1):	#fill from x2 to x1
-					matrix[j][arrxy1[i+1]] += 1
+	elif(arrxy1[i+1] == arrxy2[i+1]):	#y1 = y2
+		if(arrxy1[i] < arrxy2[i]):	#x1 < x2
+			for j in range(arrxy1[i], arrxy2[i] + 1):	#fill from x1 to x2
+				matrix[j][arrxy1[i+1]] += 1
+		elif(arrxy1[i] > arrxy2[i]):	#x1 > x2
+			for j in range(arrxy2[i], arrxy1[i] + 1):	#fill from x2 to x1
+				matrix[j][arrxy1[i+1]] += 1
 
 result = 0
 for i in range(0, len(matrix)):
