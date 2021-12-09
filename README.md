@@ -12,3 +12,5 @@
 |Day 4 part 2     |**Python, (HTML), JavaScript**|
 |Day 5 part 1     |**Python**                    |
 |Day 5 part 2     |**Python**                    |
+|Day 6 part 1	  |**C#**                        |
+|Day 6 part 2     |**C#**                        |
