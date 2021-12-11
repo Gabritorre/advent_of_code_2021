@@ -8,3 +8,4 @@
 |Day 4       |**Python, (HTML), JavaScript**|
 |Day 5       |**Python**                    |
 |Day 6       |**C#**                        |
+|Day 7       |**C#**                        |
