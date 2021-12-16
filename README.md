@@ -10,3 +10,4 @@
 |Day 6       |**C#**                        |
 |Day 7       |**C#**                        |
 |Day 8       |**Go**                        |
+|Day 9       |**Python**                    |
